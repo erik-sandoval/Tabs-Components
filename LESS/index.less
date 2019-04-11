@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin    : 0;
+  padding   : 0;
 }
 
 @import './mixins.less';
@@ -11,19 +11,20 @@
 
 
 body {
-	box-sizing: border-box;
-	min-width: 300px;
-	margin: 0;
+  box-sizing: border-box;
+  min-width : 300px;
+  margin    : 0;
 }
 
 .header-container {
-  width: 100%;
-  height: 70px;
-  border-bottom: 1px solid @white;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
+  width           : 100%;
+  height          : 70px;
+  border-bottom   : 1px solid @white;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
   background-color: @lambda-red;
+
   .header {
     height: 50px;
   }
@@ -32,22 +33,21 @@ body {
 
 
 .section {
-  width: 70%;
-  margin: 45px auto;
-  display: flex;
-  border: 1px solid @lambda-red;
-  box-shadow: 1px 1px 5px @lambda-red;
+  width        : 70%;
+  margin       : 45px auto;
+  display      : flex;
+  border       : 1px solid @lambda-red;
+  box-shadow   : 1px 1px 5px @lambda-red;
   border-radius: 10px;
-  overflow: hidden;
+  overflow     : hidden;
+
   .box {
     padding: 40px;
+
     .box-title {
-      font-size: 24px;
+      font-size     : 24px;
       padding-bottom: 10px;
-      font-weight: bold;
+      font-weight   : bold;
     }
   }
 }
-
-
-
